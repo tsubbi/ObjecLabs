@@ -25,6 +25,10 @@
 		A17D56EB269C42CF001DE8DB /* MultiplyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D56E2269C42CF001DE8DB /* MultiplyQuestion.m */; };
 		A17D56EC269C42CF001DE8DB /* MinusQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D56E5269C42CF001DE8DB /* MinusQuestion.m */; };
 		A17D56ED269C42CF001DE8DB /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D56E7269C42CF001DE8DB /* Question.m */; };
+		A17D571E269C4F04001DE8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D571D269C4F04001DE8DB /* main.m */; };
+		A17D572A269C7CF0001DE8DB /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D5729269C7CF0001DE8DB /* InputCollector.m */; };
+		A17D5733269C86EB001DE8DB /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D5732269C86EB001DE8DB /* Contact.m */; };
+		A17D573C269C8783001DE8DB /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = A17D573B269C8783001DE8DB /* ContactList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A17D5719269C4F04001DE8DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +125,14 @@
 		A17D56E6269C42CF001DE8DB /* AddQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddQuestion.h; sourceTree = "<group>"; };
 		A17D56E7269C42CF001DE8DB /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		A17D56E8269C42CF001DE8DB /* DivideQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivideQuestion.h; sourceTree = "<group>"; };
+		A17D571B269C4F04001DE8DB /* Lab5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab5; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D571D269C4F04001DE8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17D5728269C7CF0001DE8DB /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		A17D5729269C7CF0001DE8DB /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		A17D5731269C86EB001DE8DB /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A17D5732269C86EB001DE8DB /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		A17D573A269C8783001DE8DB /* ContactList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		A17D573B269C8783001DE8DB /* ContactList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +171,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A17D5718269C4F04001DE8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -161,6 +189,7 @@
 				A16346E426938A5F00EDBBDA /* Lab2 */,
 				A16346FD269605E700EDBBDA /* Lab3 */,
 				A16347132698764300EDBBDA /* Lab4 */,
+				A17D571C269C4F04001DE8DB /* Lab5 */,
 				A16346C826936C2600EDBBDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,6 +202,7 @@
 				A16346E326938A5F00EDBBDA /* Lab2 */,
 				A16346FC269605E700EDBBDA /* Lab3 */,
 				A16347122698764300EDBBDA /* Lab4 */,
+				A17D571B269C4F04001DE8DB /* Lab5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,6 +287,20 @@
 				A17D56E7269C42CF001DE8DB /* Question.m */,
 			);
 			path = Lab4Question;
+			sourceTree = "<group>";
+		};
+		A17D571C269C4F04001DE8DB /* Lab5 */ = {
+			isa = PBXGroup;
+			children = (
+				A17D571D269C4F04001DE8DB /* main.m */,
+				A17D573A269C8783001DE8DB /* ContactList.h */,
+				A17D573B269C8783001DE8DB /* ContactList.m */,
+				A17D5731269C86EB001DE8DB /* Contact.h */,
+				A17D5732269C86EB001DE8DB /* Contact.m */,
+				A17D5728269C7CF0001DE8DB /* InputCollector.h */,
+				A17D5729269C7CF0001DE8DB /* InputCollector.m */,
+			);
+			path = Lab5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +391,23 @@
 			productReference = A16347122698764300EDBBDA /* Lab4 */;
 			productType = "com.apple.product-type.tool";
 		};
+		A17D571A269C4F04001DE8DB /* Lab5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D571F269C4F04001DE8DB /* Build configuration list for PBXNativeTarget "Lab5" */;
+			buildPhases = (
+				A17D5717269C4F04001DE8DB /* Sources */,
+				A17D5718269C4F04001DE8DB /* Frameworks */,
+				A17D5719269C4F04001DE8DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab5;
+			productName = Lab5;
+			productReference = A17D571B269C4F04001DE8DB /* Lab5 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -370,6 +431,9 @@
 					A16347112698764300EDBBDA = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					A17D571A269C4F04001DE8DB = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = A16346C226936C2600EDBBDA /* Build configuration list for PBXProject "ObjcLabs" */;
@@ -390,6 +454,7 @@
 				A16346E226938A5F00EDBBDA /* Lab2 */,
 				A16346FB269605E700EDBBDA /* Lab3 */,
 				A16347112698764300EDBBDA /* Lab4 */,
+				A17D571A269C4F04001DE8DB /* Lab5 */,
 			);
 		};
 /* End PBXProject section */
@@ -445,6 +510,17 @@
 				A17D56ED269C42CF001DE8DB /* Question.m in Sources */,
 				A17D56EB269C42CF001DE8DB /* MultiplyQuestion.m in Sources */,
 				A17D56CD269C424F001DE8DB /* ScoreKeeper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D5717269C4F04001DE8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17D573C269C8783001DE8DB /* ContactList.m in Sources */,
+				A17D572A269C7CF0001DE8DB /* InputCollector.m in Sources */,
+				A17D5733269C86EB001DE8DB /* Contact.m in Sources */,
+				A17D571E269C4F04001DE8DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +689,7 @@
 		A1634701269605E700EDBBDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -622,7 +698,7 @@
 		A1634702269605E700EDBBDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -637,6 +713,22 @@
 			name = Debug;
 		};
 		A16347182698764300EDBBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A17D5720269C4F04001DE8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A17D5721269C4F04001DE8DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -697,6 +789,15 @@
 			buildConfigurations = (
 				A16347172698764300EDBBDA /* Debug */,
 				A16347182698764300EDBBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D571F269C4F04001DE8DB /* Build configuration list for PBXNativeTarget "Lab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D5720269C4F04001DE8DB /* Debug */,
+				A17D5721269C4F04001DE8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
