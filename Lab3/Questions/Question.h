@@ -12,12 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Question : NSObject {
     NSString *questionText;
     NSArray *answerSet;
-    @private
-    NSDictionary<NSString *, NSNumber *> *answerChoices;
+    NSDictionary *answerChoices;
 }
 
 - (id)init: (NSString *)question withChoices:(NSDictionary *)choices;
 - (BOOL) checkAnswer: (int)answer;
+- (NSString *)getAnswers;
+- (NSString *)getQuestion;
 
 @end
 
