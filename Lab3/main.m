@@ -44,7 +44,7 @@ int main(int argc, const char * argv[]) {
                 printf("Sorry I am unable to identify your answer.\n");
                 continue;
             } else {
-                BOOL result = [addQ checkAnswer:answer];
+                BOOL result = [questions[count] checkAnswer:answer];
                 if (result) {
                     printf("Right!\n");
                 } else {
