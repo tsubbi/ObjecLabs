@@ -15,6 +15,8 @@ int main(int argc, const char * argv[]) {
         printf("\n");
         printf("%s", [[@"Tale" stringByPigLatinization] UTF8String]);
         printf("\n");
+        printf("%s", [[@"Away" stringByPigLatinization] UTF8String]);
+        printf("\n");
     }
     return 0;
 }

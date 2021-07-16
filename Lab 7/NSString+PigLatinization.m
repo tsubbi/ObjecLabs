@@ -12,7 +12,7 @@
 -(NSString *)stringByPigLatinization {
     NSString *firstCharacter = [self substringToIndex:1];
     
-    if (![firstCharacter isVowel]) {
+    if (![firstCharacter isFirstCharacterIsVowel]) {
         if (![self isClusterWord]) {
             firstCharacter = [NSString stringWithFormat:@"%@%@", [firstCharacter uppercaseString], @"ay"];
             NSString *trimmedString = [self substringFromIndex:1];
@@ -43,7 +43,7 @@
     return NO;
 }
 
-- (BOOL) isVowel {
+- (BOOL) isFirstCharacterIsVowel {
     // convert string to ascii code
     // https://stackoverflow.com/a/7508302/14939990
     int asciiValue = [self characterAtIndex:0];
