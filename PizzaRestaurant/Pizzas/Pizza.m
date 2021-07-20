@@ -30,4 +30,8 @@
     }
 }
 
+- (NSString *) description {
+    return [NSString stringWithFormat:@"Hot pizza with toppings: %@ and of %@ size", [_toppings componentsJoinedByString:@","], [self getPizzaSize:_size]];
+}
+
 @end
