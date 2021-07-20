@@ -47,6 +47,8 @@
 		A1CBAAB626A1BE590011C8B2 /* InputPromt.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CBAAB526A1BE590011C8B2 /* InputPromt.m */; };
 		A1CBAAC326A1D3CE0011C8B2 /* PanagoPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CBAAC226A1D3CE0011C8B2 /* PanagoPizza.m */; };
 		A1CBAADA26A1D9280011C8B2 /* PizzaHutPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CBAAD926A1D9280011C8B2 /* PizzaHutPizza.m */; };
+		A1CBAB0F26A5E0280011C8B2 /* DeliverService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CBAB0E26A5E0280011C8B2 /* DeliverService.m */; };
+		A1CBAB1C26A5E0340011C8B2 /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CBAB1B26A5E0340011C8B2 /* DeliveryCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -223,6 +225,10 @@
 		A1CBAAC226A1D3CE0011C8B2 /* PanagoPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanagoPizza.m; sourceTree = "<group>"; };
 		A1CBAAD826A1D9280011C8B2 /* PizzaHutPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaHutPizza.h; sourceTree = "<group>"; };
 		A1CBAAD926A1D9280011C8B2 /* PizzaHutPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaHutPizza.m; sourceTree = "<group>"; };
+		A1CBAB0D26A5E0280011C8B2 /* DeliverService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliverService.h; sourceTree = "<group>"; };
+		A1CBAB0E26A5E0280011C8B2 /* DeliverService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliverService.m; sourceTree = "<group>"; };
+		A1CBAB1A26A5E0340011C8B2 /* DeliveryCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
+		A1CBAB1B26A5E0340011C8B2 /* DeliveryCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +494,10 @@
 				A1CBAAEF26A1D93A0011C8B2 /* Pizzas */,
 				A1CBAAB426A1BE590011C8B2 /* InputPromt.h */,
 				A1CBAAB526A1BE590011C8B2 /* InputPromt.m */,
+				A1CBAB0D26A5E0280011C8B2 /* DeliverService.h */,
+				A1CBAB0E26A5E0280011C8B2 /* DeliverService.m */,
+				A1CBAB1A26A5E0340011C8B2 /* DeliveryCar.h */,
+				A1CBAB1B26A5E0340011C8B2 /* DeliveryCar.m */,
 			);
 			path = PizzaRestaurant;
 			sourceTree = "<group>";
@@ -849,9 +859,11 @@
 			files = (
 				A1CBAAA926A1AFD00011C8B2 /* Pizza.m in Sources */,
 				A1CBAADA26A1D9280011C8B2 /* PizzaHutPizza.m in Sources */,
+				A1CBAB1C26A5E0340011C8B2 /* DeliveryCar.m in Sources */,
 				A1CBAAB626A1BE590011C8B2 /* InputPromt.m in Sources */,
 				A1CBAA9C26A1AF760011C8B2 /* Kitchen.m in Sources */,
 				A1CBAAC326A1D3CE0011C8B2 /* PanagoPizza.m in Sources */,
+				A1CBAB0F26A5E0280011C8B2 /* DeliverService.m in Sources */,
 				A1CBAA8C26A1AF550011C8B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

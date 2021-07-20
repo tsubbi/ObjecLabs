@@ -18,7 +18,8 @@
 }
 
 - (void)kitchenDidMakePizza:(Pizza *)pizza {
-    NSLog(@"You ordered a %@ pizza with toppsing of %@", [pizza getPizzaSize:pizza.size], pizza.toppings);
+    NSLog(@"You ordered a %@ pizza with toppsing of %@", [pizza getPizzaSize:pizza.size], [pizza.toppings componentsJoinedByString:@","]);
+    [_service deliverPizza:pizza];
 }
 
 @end

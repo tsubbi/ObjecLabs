@@ -11,7 +11,7 @@
 @implementation PizzaHutPizza
 
 - (BOOL)kitchen:(nonnull Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(nonnull NSArray *)toppings {
-    return [toppings containsObject:@"anchovies"];
+    return ![toppings containsObject:@"anchovies"];
 }
 
 - (BOOL)kitchenShouldUpgradeOrder:(nonnull Kitchen *)kitchen {
@@ -19,7 +19,8 @@
 }
 
 - (void)kitchenDidMakePizza:(Pizza *)pizza {
-    NSLog(@"You ordered a %@ pizza with toppsing of %@", [pizza getPizzaSize:pizza.size], pizza.toppings);
+    NSLog(@"You ordered a %@ pizza with toppsing of %@\n", [pizza getPizzaSize:pizza.size], [pizza.toppings componentsJoinedByString:@","]);
+    [_service deliverPizza:pizza];
 }
 
 @end
